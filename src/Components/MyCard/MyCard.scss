@@ -1,0 +1,46 @@
+/** @format */
+
+.my-card {
+  border-radius: 5px;
+  height: 300px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  background-color: #fff;
+  .img {
+    height: 180px;
+    position: relative;
+    img {
+      width: 60%;
+      margin-top: 30px;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      margin-left: 20%;
+    }
+  }
+  .card-text {
+    color: #000000;
+    font-size: 16px;
+    // position: absolute;
+    // top: 210px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-family: sans-pro-regular;
+    font-weight: 600;
+  }
+
+  .sub-text {
+    font-size: 12px;
+  }
+  .blue-text {
+    // position: absolute;
+    // top: 240px;
+    font-size: 12px;
+    font-family: sans-pro-bold;
+    width: 100%;
+    text-align: center;
+  }
+}

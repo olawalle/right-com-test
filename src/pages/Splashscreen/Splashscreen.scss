@@ -1,0 +1,25 @@
+/** @format */
+
+.splashscreen {
+  text-align: center;
+  height: 100vh;
+  position: relative;
+  .contents {
+    height: 200px;
+    position: relative;
+    top: 50%;
+    margin-top: -100px;
+  }
+  .logo {
+    height: 35px;
+  }
+  .icons {
+    img {
+      width: 36px;
+      margin: 20px 4px;
+    }
+  }
+  .page-loader {
+    margin-top: 35vh !important;
+  }
+}

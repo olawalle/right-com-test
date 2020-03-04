@@ -1,0 +1,20 @@
+/** @format */
+
+.footer {
+  height: 90px;
+  line-height: 90px;
+  padding: 0 30px;
+  background: #fafafa 0% 0% no-repeat;
+  border: 0.75px solid #e4e4e4;
+  span {
+    color: #808080;
+    margin: 0 20px;
+  }
+  .right {
+    img {
+      margin: 0px 4px;
+      position: relative;
+      top: 2px;
+    }
+  }
+}

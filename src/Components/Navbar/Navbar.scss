@@ -1,0 +1,13 @@
+/** @format */
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  line-height: 70px;
+  .rightt {
+    float: right;
+    select {
+      border: 0 !important;
+    }
+  }
+}
