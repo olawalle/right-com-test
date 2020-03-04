@@ -32,9 +32,11 @@ const Signup = () => {
               <label className='my-label'>Password</label>
               <Input placeholder='Enter your password' />
 
-              <Button primary className='w100'>
-                SIGN UP
-              </Button>
+              <Link to='/onboarding' style={{ color: '#fff' }}>
+                <Button primary className='w100'>
+                  SIGN UP
+                </Button>
+              </Link>
 
               <p className='options'>
                 <span>
